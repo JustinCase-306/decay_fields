@@ -6,7 +6,7 @@
 
 Decay Fields is a 2D Pixel Art game which is still in the phase of beginning developing.
 
-There's also another repository around called 'DecayPlains' which is just a copy of this (original) repository but I'll let them go as they have licensed it under GNU and also if THIS repository is copyrighted, they can't change it to THEIR copyright without my permission to.
+There's also another repository around called 'DecayPlains' which is just a copy of this (original) repository but I'll let them go as they have licensed it under GNU and also if THIS repository is copyrighted, they can't change it to THEIR copyright without my permission to (maybe i'll do a DMCA takdown if it gets annoying)
 
 </details>
 
