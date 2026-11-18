@@ -4,7 +4,9 @@
 <summary><b>View Info</b></summary>
 <br>
 
-Decay Fields is a 2D Pixel Art game which is still in the phase of beginning developing. We will tell you nothing about it except the developers are @Benjamin-306 and @JustinCase-306.
+Decay Fields is a 2D Pixel Art game which is still in the phase of beginning developing.
+
+There's also another repository around called 'DecayPlains' which is just a copy of this (original) repository but I'll let them go as they have licensed it under GNU and also if THIS repository is copyrighted, they can't change it to THEIR copyright without my permission to.
 
 </details>
 
@@ -36,7 +38,7 @@ Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 - *thanks to [VoiceStudio](https://github.com/debpalash/VoiceStudio) for great TTS models.*
 
 ***Coding:***
-- **Code:** Benjamin-306 + JustinCase306
+- **Code:** JustinCase-306 + Benjamin-306
 - **Readme updating (most important work ever):** the greatest Justin that's ever lived <br>
 *Thanks to all the developers of [Godot Engine](https://github.com/godotengine/godot). You can download Godot [here](https://godotengine.org/download/).*
 
