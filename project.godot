@@ -20,8 +20,8 @@ config/icon="uid://wjba5ji847n8"
 
 [autoload]
 
-SaveSystem="*uid://3pd1iqopfg18"
 Global="*uid://cijt7nyeam7fc"
+SaveSystem="*uid://3pd1iqopfg18"
 
 [display]
 

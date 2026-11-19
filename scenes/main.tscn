@@ -1,11 +1,9 @@
 [gd_scene format=3 uid="uid://daigvy7a3x4jm"]
 
-[ext_resource type="Script" uid="uid://butjxhu61r4sf" path="res://script/world/game_manager.gd" id="1_21xkr"]
 [ext_resource type="PackedScene" uid="uid://c5laq2ns3o04k" path="res://scenes/player/player.tscn" id="2_bo1nx"]
 [ext_resource type="AudioStream" uid="uid://jdprius474c0" path="res://assets/audio/music/SoundtrackStarfieldSavePoint.mp3" id="7_344ge"]
 [ext_resource type="Texture2D" uid="uid://bpxvh46ggl70j" path="res://assets/sprites/essential/essential_joystick.png" id="10_fdnlq"]
 [ext_resource type="PackedScene" uid="uid://dafbnkgmjxy4j" path="res://scenes/ui/pause_menu.tscn" id="12_6iyac"]
-[ext_resource type="Script" uid="uid://s6e5ki73nbgs" path="res://script/world/touch_buttons.gd" id="12_jkdf5"]
 [ext_resource type="PackedScene" uid="uid://bdukfilqwbfkr" path="res://scenes/ui/start_anim.tscn" id="24_3pmx8"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d1ilt"]
@@ -31,13 +29,13 @@ region_rect = Rect2(30, 32, 34, 32)
 
 [node name="GameManager" type="Node" parent="." unique_id=1611143294]
 unique_name_in_owner = true
-script = ExtResource("1_21xkr")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="GameManager" unique_id=296014457]
 
 [node name="Player" parent="." unique_id=2134270175 instance=ExtResource("2_bo1nx")]
 unique_name_in_owner = true
 position = Vector2(0, -5)
+script = null
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=451561475]
 zoom = Vector2(3.5, 3.5)
@@ -56,7 +54,6 @@ max_distance = 661160.0
 bus = &"BackgroundMusic"
 
 [node name="TouchButtons" type="Node" parent="." unique_id=29240818]
-script = ExtResource("12_jkdf5")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="TouchButtons" unique_id=302493619]
 
@@ -80,3 +77,4 @@ action_down = &"move_down"
 [node name="StartAnim" parent="." unique_id=1327585273 instance=ExtResource("24_3pmx8")]
 
 [node name="PauseMenu" parent="." unique_id=448313180 instance=ExtResource("12_6iyac")]
+script = null
