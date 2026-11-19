@@ -1,4 +1,3 @@
 extends Node
-
-var geladene_position: Vector2
-var hat_position: bool = false
+var loaded_position: Vector2
+var has_position: bool = false
