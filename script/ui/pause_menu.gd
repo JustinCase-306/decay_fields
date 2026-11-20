@@ -4,7 +4,7 @@ extends Control
 @onready var panel: Control = $PauseMenu/Visibility
 
 func _ready() -> void:
-	process_mode = Node.PROCESS_MODE_ALWAYS
+	process_mode = Node.PROCESS_MODE_ALWAYS # so ya can exit again
 	
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("pause"):
