@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://daigvy7a3x4jm"]
 
 [ext_resource type="PackedScene" uid="uid://c5laq2ns3o04k" path="res://scenes/player/player.tscn" id="2_bo1nx"]
-[ext_resource type="AudioStream" uid="uid://jdprius474c0" path="res://assets/audio/music/SoundtrackStarfieldSavePoint.mp3" id="7_344ge"]
-[ext_resource type="Texture2D" uid="uid://bpxvh46ggl70j" path="res://assets/sprites/essential/essential_joystick.png" id="10_fdnlq"]
+[ext_resource type="AudioStream" uid="uid://crbfxo0eou0xk" path="res://assets/audio/music/SoundtrackStarfieldSavePoint.mp3" id="7_344ge"]
+[ext_resource type="Texture2D" uid="uid://ds208mtsi5hg6" path="res://assets/sprites/essential/essential_joystick.png" id="10_fdnlq"]
 [ext_resource type="PackedScene" uid="uid://dafbnkgmjxy4j" path="res://scenes/ui/pause_menu.tscn" id="12_6iyac"]
 [ext_resource type="PackedScene" uid="uid://bdukfilqwbfkr" path="res://scenes/ui/start_anim.tscn" id="24_3pmx8"]
 
